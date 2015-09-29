@@ -1,0 +1,27 @@
+{
+  "name": "react-component-sol-footer",
+  "version": "0.0.1",
+  "description": "A React component that displays SOLs footer. It's basically a colophon.",
+  "main": "index.js",
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/soldotno/react-component-sol-footer"
+    },
+  "keywords": [
+      "react",
+      "react-component",
+      "footer"
+    ],
+  "author": "Just Thomas Hiorth Misund",
+  "license": "MIT",
+  "bugs": {
+      "url": "https://github.com/soldotno/react-component-sol-footer/issues"
+    },
+  "homepage": "https://github.com/soldotno/react-component-sol-footer",
+  "dependencies": {
+      "react": "^0.12.2"
+    }
+}
