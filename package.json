@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/soldotno/react-component-sol-footer",
   "peerDependencies": {
-    "react": ">0.12.2"
+    "react": ">0.12.0"
   },
   "devDependencies": {
     "react": ">0.12.2",
