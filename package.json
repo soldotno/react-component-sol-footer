@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mkdir -p dist && jsx src/index.jsx > dist/index.js",
+    "build": "mkdir -p dist && jsx --harmony src/index.jsx > dist/index.js",
     "prepublish": "npm run build"
   },
   "repository": {
