@@ -23,10 +23,11 @@
     "url": "https://github.com/soldotno/react-component-sol-footer/issues"
   },
   "homepage": "https://github.com/soldotno/react-component-sol-footer",
-  "dependencies": {
-    "react": "^0.12.2"
+  "peerDependencies": {
+    "react": ">0.12.2"
   },
   "devDependencies": {
+    "react": ">0.12.2",
     "react-tools": "^0.13.3"
   }
 }
