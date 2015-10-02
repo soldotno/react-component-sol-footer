@@ -1,6 +1,6 @@
 {
   "name": "react-component-sol-footer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A React component that displays SOLs footer. It's basically a colophon.",
   "main": "dist/index.js",
   "scripts": {
