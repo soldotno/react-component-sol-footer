@@ -2,12 +2,8 @@
   "name": "react-component-sol-footer",
   "version": "0.1.3",
   "description": "A React component that displays SOLs footer. It's basically a colophon.",
-  "main": "dist/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mkdir -p dist && jsx --harmony src/index.jsx > dist/index.js",
-    "prepublish": "npm run build"
-  },
+  "main": "src/index.jsx",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/soldotno/react-component-sol-footer"
@@ -23,11 +19,9 @@
     "url": "https://github.com/soldotno/react-component-sol-footer/issues"
   },
   "homepage": "https://github.com/soldotno/react-component-sol-footer",
-  "peerDependencies": {
+  "peerDependencies": {},
+  "devDependencies": {},
+  "dependencies": {
     "react": ">0.12.0"
-  },
-  "devDependencies": {
-    "react": ">0.12.2",
-    "react-tools": "^0.13.3"
   }
 }
