@@ -5,8 +5,9 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-   "build": "mkdir -p dist && babel src/index.jsx > dist/index.js",
-   "prepublish": "npm run build"
+    "build": "mkdir -p dist && babel src/index.jsx > dist/index.js",
+    "postinstall": "npm build",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
